@@ -328,7 +328,7 @@ class translator {
             }
         }
 
-        return array_reverse(array_merge(['en'], $dependencies));
+        return array_reverse(array_merge([$CFG->lang], $dependencies));
     }
 
     /**
